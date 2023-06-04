@@ -1,0 +1,181 @@
+.section{
+    width: 1300px;
+    // border: 1px solid;
+    &--lists{
+        display: flex;
+        list-style: none;
+        &_item{
+            width: 880px;
+            // height: 763px;
+            // border: 1px solid;
+            border-radius: 28px;
+            // background-color: aliceblue;
+            p{
+                font-size: 20px;
+                padding: 10px 64px; 
+            }
+            span{
+                font-weight: 500px;
+            }
+        }
+        &_item2{
+            width: 418px;
+            height: 383px;
+            // border: 1px solid;
+            border-radius: 28px;
+            // background-color: aliceblue;
+            h6{
+               color: #3844; 
+               padding: 15px 64px;
+               font-size: 14px;
+            }
+            h2{
+                padding: 15px 64px;
+            }
+            p{
+               padding: 15px 64px;
+            }
+            img{
+                padding: 15px 64px;
+            }
+            button{
+                width: 326px;
+                height: 60px;
+                background-color: #77C613;
+                border-radius: 17px;
+                color: #ffffff;
+                margin-left: 60px;
+            }
+        }
+    }
+    &--france{
+        width: 1300px;
+        // border: 1px solid;
+        &_h2{
+            width: 100%;
+            // border: 1px solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 36px;
+        }
+        &_lis{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            &-item{
+                width: 420px;
+                // border: 1px  solid;
+                border-radius: 28px;
+                // background-color: aliceblue;
+                img{
+                    padding: 50px 80px;
+                }
+                p{
+                    padding: 10px 40px;
+                }
+                button{
+                    width: 326px;
+                    height: 60px;
+                    background-color: #77C613;
+                    border-radius: 17px;
+                    color: #ffffff;
+                    margin-left: 40px;
+                    margin-top: 50px;
+                }
+            }
+            &-item1{
+                width: 420px;
+                // border: 1px solid;
+                border-radius: 28px;
+                img{
+                    padding: 50px 50px;
+                }
+                p{
+                    padding: 10px 50px;
+                }
+                button{
+                    width: 326px;
+                    height: 60px;
+                    background-color: #77C613;
+                    border-radius: 17px;
+                    color: #ffffff;
+                    margin-left: 40px;
+                    margin-top: 80px;
+                }
+            }
+        }
+    }
+    &--choiss{
+        width: 1300px;
+        // border: 1px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+    &--blue{
+        width: 1300px;
+        // height: 132px;
+        // border: 1px solid;
+        border-radius: 28px;
+        background-color: #317AC1;
+        button{
+            width: 300px;
+                height: 40px;
+                border-radius: 17px;
+                color: #383A42;
+                background-color: #ffffff;
+                margin-left: 50px;
+                margin-top: 40px;
+        }
+    }
+}
+@media screen and (max-width: 450px){
+    .container{
+        width: 100%;
+    }
+    .section{
+        width: 100%;
+    }
+    .section--lists{
+        width: 100vw;
+        flex-direction: column;
+    }
+    .section--lists_item{
+        width: auto;
+        img{
+            width: 100vw;
+        }
+    }
+    .section--lists_item2{
+        width: auto;
+    }
+    .section--france{
+        width: auto;
+    }
+    .section--france_h2{
+        width: auto;
+    }
+    .section--france_lis{
+        width: 100vw;
+        flex-direction: column;
+    }
+    .section--france_lis-item{
+        width: auto;
+    }
+    .section--france_lis-item1{
+        width: auto;
+    }
+    .section--choiss{
+        width: auto;
+    }
+    .section--blue{
+        width: 100vw;
+    }
+    .section--blue_listt{
+        width: 100vw;
+        flex-direction: column;
+    }
+    
+}    
